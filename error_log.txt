@@ -1,0 +1,3 @@
+2025-10-02 01:51:07 - 'coroutine' object has no attribute 'text'
+2025-10-02 - run loop already started
+2025-10-02 - run loop already started
