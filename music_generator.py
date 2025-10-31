@@ -147,9 +147,9 @@ def prepare_sequences(notes, seq_length=SEQUENCE_LENGTH):
     y = np.array(network_output, dtype=np.int32)
     return X, y, note_to_int, pitchnames
 
-# ------------------------
+# --------------------------
 # Model: smaller, efficient LSTM
-# ------------------------
+# --------------------------
 
 def build_model(input_shape, n_vocab, units=256, use_gru=False):
     RNN = layers.GRU if use_gru else layers.LSTM
